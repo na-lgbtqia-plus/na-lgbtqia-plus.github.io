@@ -31,6 +31,7 @@
 
 .featured-image-block img {
     margin-bottom: 20px;
+    margin-top: 20px;
     height: 300px;
     width: 400px;
 }

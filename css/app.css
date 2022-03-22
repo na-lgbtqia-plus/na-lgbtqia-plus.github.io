@@ -28,10 +28,12 @@
     margin-right: auto;
 }
 
+.featured-image-block {
+    margin-top: 20px;
+}
 
 .featured-image-block img {
     margin-bottom: 20px;
-    margin-top: 20px;
     height: 300px;
     width: 400px;
 }

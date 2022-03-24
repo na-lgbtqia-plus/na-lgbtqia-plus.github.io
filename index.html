@@ -1,66 +1,94 @@
 <!doctype html>
-<html class="no-js" lang="en">
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Narcotiques Anonymes LGBTQIA+</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Compressed CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css"
+          crossorigin="anonymous">
 
     <!-- Compressed JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-    <div class="hero-image">
-    </div>
-    <div class="top-bar">
-      <div class="grid-container">
-          <div class="top-bar-left">
-            <div class="menu grid-x grid-x-margin">
-              <div><a href="index.html">Qui sommes nous ?</a></div>
-              <div><a href="reunions.html">Réunions</a></div>
-              <div><a href="evenements.html">Evènements</a></div>
-              <div><a href="temoignages.html">Témoignages</a></div>
-              <div><a href="liens-utiles.html">Liens utiles</a></div>
-              <div><a href="contact.html">Contact</a></div>
-            </div>
-        </div>
-      </div>
-    </div>
+    <script src="js/app.js"></script>
+</head>
 
-    <div class="grid-container main"> 
-      <div class="row" id="content">
+<body>
+<div class="hero">
+    <img src="./img/hero-1.svg"/>
+</div>
+
+
+<div class="topnav" id="main-menu">
+
+    <a href="index.html">Page d'accueil</a>
+    <a href="reunions.html">Réunions</a>
+    <a href="evenements.html">Evènements</a>
+    <a href="temoignages.html">Témoignages</a>
+    <a href="liens-utiles.html">Liens utiles</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="handleMenuEvent()">
+        <i class="fa fa-bars"></i>
+    </a>
+
+</div>
+
+<div class="grid-container main">
+    <div class="row" id="content">
         <div class="medium-8 columns">
-          <h2>Qui sommes nous ?</h2>
-          <hr>
-          <p>NA est une fraternité ou une association à but non lucratif, composée d’hommes et de femmes pour qui la drogue était devenue un problème majeur.</p>
+            <h2>Qui sommes nous ?</h2>
+            <hr>
+            <p>NA est une fraternité ou une association à but non lucratif, composée d’hommes et de femmes pour qui la
+                drogue était devenue un problème majeur.</p>
 
-          <p>Nous sommes des dépendants en rétablissement. Nous nous réunissons régulièrement pour nous entraider à rester abstinents. 
-            C’est un programme d’abstinence complète de toute drogue. La seule condition pour devenir membre est le désir d’arrêter de consommer. 
-            Nous vous suggérons de garder l’esprit ouvert et de vous donner une chance. Notre programme repose sur des principes écrits si simplement que nous pouvons les appliquer à notre vie quotidienne. 
-            L’important, c’est qu’ils donnent des résultats.</p>
+            <p>Nous sommes des dépendants en rétablissement. Nous nous réunissons régulièrement pour nous entraider à
+                rester
+                abstinents.
+                C’est un programme d’abstinence complète de toute drogue. La seule condition pour devenir membre est le
+                désir
+                d’arrêter de consommer.
+                Nous vous suggérons de garder l’esprit ouvert et de vous donner une chance. Notre programme repose sur
+                des
+                principes écrits si simplement que nous pouvons les appliquer à notre vie quotidienne.
+                L’important, c’est qu’ils donnent des résultats.</p>
 
-          <p>NA est entièrement autonome ; nous ne sommes affiliés à aucun organisme. 
-            Nous n’avons pas de frais d’admission ni de cotisations, pas d’engagements à signer ni de promesses à faire à qui que ce soit. 
-            Nous ne sommes rattachés à aucun groupe politique ou mouvement religieux. 
-            Nous n’avons aucun lien avec la police et ne sommes jamais tenus sous surveillance. 
-            N’importe quel dépendant ou dépendante peut se joindre à nous quels que soient son âge, son origine, son identité sexuelle, ses croyances, sa religion ou absence de religion.</p>
-          
-          <p>Nous ne voulons pas savoir ce que vous consommiez, ni en quelle quantité ni qui vous en procurait. Votre passé et les moyens dont vous disposez ne nous intéressent pas. Tout ce qui nous importe, c’est ce que vous désirez faire concernant votre problème et comment nous pouvons vous aider. Les nouveaux et les nouvelles sont les personnes les plus importantes dans nos réunions, car c’est seulement en redonnant aux autres que nous conservons ce qui nous a été donné. Notre expérience collective nous a appris que celles et ceux qui assistent régulièrement à nos réunions demeurent abstinents.
-          </p>
-          <p>Extrait du « Texte de base » de Narcotiques Anonymes (lu au début de chaque réunion). © 1989, 2000 by Narcotics Anonymous World Services.</p>
+            <p>NA est entièrement autonome ; nous ne sommes affiliés à aucun organisme.
+                Nous n’avons pas de frais d’admission ni de cotisations, pas d’engagements à signer ni de promesses à
+                faire à
+                qui que ce soit.
+                Nous ne sommes rattachés à aucun groupe politique ou mouvement religieux.
+                Nous n’avons aucun lien avec la police et ne sommes jamais tenus sous surveillance.
+                N’importe quel dépendant ou dépendante peut se joindre à nous quels que soient son âge, son origine, son
+                identité sexuelle, ses croyances, sa religion ou absence de religion.</p>
+
+            <p>Nous ne voulons pas savoir ce que vous consommiez, ni en quelle quantité ni qui vous en procurait. Votre
+                passé et les moyens dont vous disposez ne nous intéressent pas. Tout ce qui nous importe, c’est ce que
+                vous
+                désirez faire concernant votre problème et comment nous pouvons vous aider. Les nouveaux et les
+                nouvelles sont
+                les personnes les plus importantes dans nos réunions, car c’est seulement en redonnant aux autres que
+                nous
+                conservons ce qui nous a été donné. Notre expérience collective nous a appris que celles et ceux qui
+                assistent
+                régulièrement à nos réunions demeurent abstinents.
+            </p>
+            <p>Extrait du « Texte de base » de Narcotiques Anonymes (lu au début de chaque réunion). © 1989, 2000 by
+                Narcotics Anonymous World Services.</p>
         </div>
-      </div>
     </div>
+</div>
 
-    <footer>
-      <div class="grid-container">
+<footer>
+    <div class="grid-container">
         <div class="grid-x grid-x-padding">
-          <div>2022 © Narcotiques Anonymes France - Tous droits réservés</div>
+            <div>2022 © Narcotiques Anonymes France - Tous droits réservés</div>
         </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+</footer>
+</body>
 </html>

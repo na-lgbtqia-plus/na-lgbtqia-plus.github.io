@@ -5,16 +5,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Narcotiques Anonymes LGBTQIA+</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Compressed CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css"
-          crossorigin="anonymous">
 
-    <!-- Compressed JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
-            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
-    <script src="js/app.js"></script>
 </head>
 <body>
 <div class="hero">
@@ -34,55 +28,90 @@
 
 </div>
 
+
 <div class="grid-container">
-    <div class="featured-image-block-grid">
-        <div class="grid-x grid-margin-x small-up-1 medium-up-3 large-up-3">
-            <div class="featured-image-block cell large-auto medium-auto small-1">
-                <img class="thumbnail" src="img/saint-paul.jpeg">
-                <p class="featured-image-block-title">Saint-Paul</p><hr>
-                <p>Tous les lundis 19h30-21h00</p>
-                <p>5 passage Saint-Paul, 75004 Paris</p>
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe class="inlined-map" id="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                src="https://maps.google.com/maps?q=le%20village%20saint%20paul&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <ul class="tabs" data-tabs id="meeting-tabs">
+        <li class="tabs-title is-active"><a href="#physical" aria-selected="true">Réunions Physiques</a></li>
+        <li class="tabs-title"><a data-tabs-target="virtual" href="#virtual">Réunions Virtuelles</a></li>
+    </ul>
+    <div class="tabs-content" data-tabs-content="meeting-tabs">
+        <div class="tabs-panel is-active" id="physical">
+            <div class="featured-image-block-grid">
+                <div class="grid-x grid-margin-x small-up-1 medium-up-3 large-up-3">
+                    <div class="featured-image-block cell large-auto medium-auto small-1">
+                        <img class="thumbnail" src="img/saint-paul.jpeg">
+                        <p class="featured-image-block-title">Saint-Paul</p>
+                        <hr>
+                        <p>Tous les lundis 19h30-21h00</p>
+                        <p>5 passage Saint-Paul, 75004 Paris</p>
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe class="inlined-map" id="gmap_canvas" frameborder="0" scrolling="no"
+                                        marginheight="0"
+                                        marginwidth="0"
+                                        src="https://maps.google.com/maps?q=le%20village%20saint%20paul&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" featured-image-block cell large-auto medium-auto small-1">
+                        <img class="thumbnail" src="img/centre-lgbt.jpg">
+                        <p class="featured-image-block-title">Aura Queer</p>
+                        <hr>
+                        <p>Tous les lundis 20h00-21h30</p>
+                        <p>19 rue des Capucins, 69001 Lyon</p>
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe class="inlined-map" id="gmap_canvas-1" frameborder="0" scrolling="no"
+                                        marginheight="0"
+                                        marginwidth="0"
+                                        src="https://maps.google.com/maps?q=19%20Rue%20des%20Capucins%2069001%20Lyon&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-image-block cell large-auto medium-auto small-1">
+                        <img class="thumbnail" src="img/facade-eglise-saint-merri.jpg">
+                        <p class="featured-image-block-title">TGIF</p>
+                        <hr>
+                        <p>Tous les vendredis 19h00-20h30</p>
+                        <p>76 rue de la verrerie, 75004 Paris</p>
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe class="inlined-map" id="gmap_canvas-2" frameborder="0" scrolling="no"
+                                        marginheight="0"
+                                        marginwidth="0"
+                                        src="https://maps.google.com/maps?q=76%20Rue%20de%20la%20Verrerie%2075004%20Paris&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-image-block cell large-auto medium-auto small-1">
+                        <img class="thumbnail" src="img/centre-lgbt-paris.jpg">
+                        <p class="featured-image-block-title">Brunch Q</p>
+                        <hr>
+                        <p>Tous les dimanches 12h00-13h30</p>
+                        <p>63 rue Beaubourg, 75003 Paris</p>
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe class="inlined-map" id="gmap_canvas-2" frameborder="0" scrolling="no"
+                                        marginheight="0"
+                                        marginwidth="0"
+                                        src="https://maps.google.com/maps?q=63%20rue%20beaubourg%2075003%20paris&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class=" featured-image-block cell large-auto medium-auto small-1">
-                <img class="thumbnail" src="img/centre-lgbt.jpg">
-                <p class="featured-image-block-title">Aura Queer</p><hr>
-                <p>Tous les lundis 20h00-21h30</p>
-                <p>19 rue des Capucins, 69001 Lyon</p>
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe class="inlined-map" id="gmap_canvas-1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                src="https://maps.google.com/maps?q=19%20Rue%20des%20Capucins%2069001%20Lyon&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        ></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="featured-image-block cell large-auto medium-auto small-1">
-                <img class="thumbnail" src="img/facade-eglise-saint-merri.jpg">
-                <p class="featured-image-block-title">TGIF</p><hr>
-                <p>Tous les vendredis 19h00-20h30</p>
-                <p>76 rue de la verrerie, 75004 Paris</p>
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe class="inlined-map" id="gmap_canvas-2" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                src="https://maps.google.com/maps?q=76%20Rue%20de%20la%20Verrerie%2075004%20Paris&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-                    </div>
-                </div>
-            </div>
-            <div class="featured-image-block cell large-auto medium-auto small-1">
-                <img class="thumbnail" src="img/centre-lgbt-paris.jpg">
-                <p class="featured-image-block-title">Brunch Q</p><hr>
-                <p>Tous les dimanches 12h00-13h30</p>
-                <p>63 rue Beaubourg, 75003 Paris</p>
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe class="inlined-map" id="gmap_canvas-2" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                                src="https://maps.google.com/maps?q=63%20rue%20beaubourg%2075003%20paris&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+        <div class="tabs-panel" id="virtual">
+            <div class="featured-image-block-grid">
+                <div class="grid-x grid-margin-x small-up-1 medium-up-3 large-up-3">
+                    <div class="featured-image-block cell large-auto medium-auto small-1">
+                        <img class="thumbnail" src="img/TGIF_favicone.png">
+                        <p class="featured-image-block-title">LGBTQIA+ Francophones</p>
+                        <hr>
+                        <p>Tous les vendredis 19h00-20h30</p>
+                        <a href="https://us02web.zoom.us/j/4124121212">Lien zoom</a>
+                        <p>Code zoom: 1212</p>
                     </div>
                 </div>
             </div>
@@ -98,5 +127,9 @@
         </div>
     </div>
 </footer>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

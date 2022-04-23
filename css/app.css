@@ -121,6 +121,10 @@
     margin-bottom: 20px;
 }
 
+.title-contact {
+    color: blue;
+}
+
 footer {
     height: 100px;
     background-color: rgba(255, 244, 231, 1);

@@ -26,6 +26,18 @@
     justify-content: center;
 }
 
+.submenu {
+    background: rgb(235, 217, 209);
+    color: grey;
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+}
+
+.submenu p {
+    margin: 0;
+}
+
 .topnav a {
     float: left;
     text-align: center;

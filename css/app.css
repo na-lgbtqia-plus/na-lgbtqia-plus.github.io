@@ -181,9 +181,9 @@
 
 
 footer {
-    height: 50px;
+    height: 100px;
     background-color: rgba(255, 244, 231, 1);
-    padding: 20px 0px;
+    padding: 40px 0px;
     color: grey;
     display: flex; 
     justify-content: center
